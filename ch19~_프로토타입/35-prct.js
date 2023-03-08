@@ -1,0 +1,4 @@
+/**
+ */
+
+me.hasOwnProperty('name');
