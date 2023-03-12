@@ -1,0 +1,4 @@
+/**
+ */
+
+console.hasOwnProperty('log'); // -> true
