@@ -1,8 +1,12 @@
 /**
+ * 함수는 매개변수의 개수와 인수의 개수가 일치하는지 체크하지 않는다.
+ * 즉, 함수를 호출할 때 매개변수의 개수만큼 인수를 전달하는 것이 일반적이지만
+ *  그렇지 않은 경우에도 에러가 발생하지는 않는다.
+ * 인수가 부족해서 인수가 할당되지 않은 매개변수의 값은 undefinede다
  */
 
 function add(x, y) {
     return x + y;
 }
 
-console.log(add(2)); // NaN
+console.log(add(2)); // NaN = 2 + undefined
